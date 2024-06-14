@@ -1,0 +1,10 @@
+version: '1'
+
+services:
+
+  app1:
+    container_name: container_app1
+    build: ./
+    image: 'myapp:4.0'
+    ports:
+      - '8080:8080'
